@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import HeaderBar from "../src/Components/HeaderBar";
+import WeatherBody from "./Components/WeatherBody";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
+    //make sure there is a parental div to hold the information
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderBar name="GIT HUB USER SEARCH" />
+
+      <WeatherBody />
     </div>
   );
 }

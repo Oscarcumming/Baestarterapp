@@ -1,0 +1,16 @@
+.background {
+    background-color: antiquewhite;
+    height : 5em;
+}
+
+.text_01{
+    font-size: 2em;
+}
+
+.padding_01 {
+    padding: 2em;
+}
+
+.center{
+    padding-left: 40%;
+}
